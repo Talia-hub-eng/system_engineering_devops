@@ -1,0 +1,4 @@
+"Hello">myfolder/readme.txt
+git add
+git commit -m "Created a new directory called myfolder"
+git push 
