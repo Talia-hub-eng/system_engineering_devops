@@ -1,1 +1,15 @@
+#!/talia@Ubuntu$/bin/env bash
+# This script prints specific messages for the 4th and 8th iterations, and "Best School" for others
 
+for i in {1..10}
+do
+    if [ "$i" -eq 4 ]
+    then
+        echo "bad luck"
+    elif [ "$i" -eq 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+done
