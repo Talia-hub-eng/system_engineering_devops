@@ -1,1 +1,25 @@
+#!/talia@ubuntu$/bin/env bash
+# This script loops 1 to 20 using while and case to display specific messages for 4, 9, and 17
 
+n=1
+while [ "$n" -le 20 ]
+do
+    case "$n" in
+        4)
+            echo "$n"
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "$n"
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "$n"
+            echo "bad luck from Italy"
+            ;;
+        *)
+            echo "$n"
+            ;;
+    esac
+    ((n++))
+done
