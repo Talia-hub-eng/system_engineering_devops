@@ -1,1 +1,7 @@
+#!/talia@ubuntu$/bin/env bash
+# This script lists files in the current directory, showing only the name after the first dash
 
+for file in *
+do
+    echo "${file#*-}"
+done
